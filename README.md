@@ -50,6 +50,6 @@ $ docker build --platform linux/amd64 ./ -t {your_container_name}
 ## Note
 When openssl3 is available with apt-get install, replace installing openssl from source parts.
 
-Be patiant to build linux/amd64 image on ARM64 platform, such as M1/M2 Mac.
+Be patient to build linux/amd64 image on ARM64 platform, such as M1/M2 Mac.
 "make isntall" takes soooooo long time to complete, feel like never ends...
 On my M2 Macbook Pro, it took 2867.8sec for the first time. :(
